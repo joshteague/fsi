@@ -1,0 +1,2 @@
+
+Fatal error: Cannot redeclare get_file_description() (previously declared in /home/thefair/www/www/wordpress/wp-admin/includes/file.php:77) in /home/thefair/www/www/wordpress/wp-admin/includes/file.php on line 93

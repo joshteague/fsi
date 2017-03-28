@@ -1,0 +1,412 @@
+/*
+TPOD STYLE
+*/
+
+/* General Styles
+----------------------------------------------- */
+h1, h2, h3, h4, h5, h6, ul, li, form, body {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font: 1.2em/100% Helvetica;
+ display:inline;
+}
+
+#respond {
+margin-bottom:.5em;
+display: block;
+}
+
+p {
+margin-top:7px;
+}
+
+h2 {
+ font:1.2em "Helvetica";
+ color:#666;
+ font-weight:bold;
+ background: #fff;
+ padding:8px;
+}
+
+h3 {
+ font:1.2em "Helvetica";
+ color:#cacaca;
+ font-weight:bold;
+ background: #fff;
+}
+
+
+body {
+ color:#767676;
+ background:#CEE7F3;
+ font:small Helvetica;
+ line-height:1.6em;
+}
+
+.date {
+margin-left:5px;
+color:#ccc;
+}
+
+a:link {
+ color:#1E9ECD;
+ text-decoration:underline;
+}
+
+a:visited {
+ color:#1E9ECD;
+ text-decoration:underline;
+}
+
+a img {
+ border-width:0;
+}
+
+a img.scaled {
+width:150px;
+height:150px;
+padding:3px;
+}
+
+/* Everything
+----------------------------------------------- */
+#wrap {
+ margin: 0px auto;
+ width:1000px;
+ text-align: left;
+}
+
+#main {
+min-width:608px;
+max-width:1280px;
+float:left;
+margin: 0 auto;
+padding-left:69px
+
+}
+
+/* Header Area
+----------------------------------------------- */
+#header {
+ margin:0px auto;
+ background: url(http://www.thefairskinneditalians.com/wp-content/themes/v3/img/logo.png) top left no-repeat;
+ height: 68px;
+ width: 1000px;
+}
+
+#header a {
+ text-decoration: none;
+ font-weight: normal;
+ margin:-10000px;
+}
+
+#header h1 {
+ padding-left: 20px;
+ font-size: 2em;
+}
+
+.login {
+float: right;
+margin:-60px 100px 0 0px;
+position: relative;
+font-size:.5em;
+font-family:Helvetica;
+}
+
+.login a{
+color: #f1f1f1;
+}
+
+/* Main Content
+----------------------------------------------- */
+
+.story img {
+ padding-bottom:10px;
+margin:0px auto;
+
+}
+
+.thumbnail img{
+border: 1px solid white;
+margin: 5px;
+}
+
+img.alignright {
+width:150px;
+float: right;
+padding: 5px;
+margin:5px 0px 0px 10px;
+border:1px solid #ccc;
+}
+
+img.alignleft {
+width:150px;
+float: left;
+padding: 5px;
+margin:5px 0px 0px 10px;
+border:1px solid #ccc;
+}
+
+img.c {
+float: center;
+width:400px;
+padding: 5px;
+margin:5px 0px 0px 10px;
+border:1px solid #ccc;
+  }
+
+.foot {
+border-top:1px solid #E8E7E5;
+color:#CACACA;
+font-weight:bold;
+margin:10px 0px 0px;
+padding:10px 0px 0px 0px;
+}
+
+.float_wrapper {
+overflow:hidden;
+width:100%;
+}
+
+.left {
+float:left;
+}
+
+.right {
+float:right;
+}
+
+
+/* Sidebar Content
+----------------------------------------------- */
+#sidebar {
+ width:230px;
+margin-top:-25px;
+ float:left;
+padding:15px;
+}
+
+#sidebar h1 {
+ font-weight: bold;
+ color: #fff;
+ font-size:20px;
+ text-decoration:none;
+ line-height:.5em;
+}
+
+#sidebar h2 {
+ font-weight: bold;
+ color: #666;
+ text-decoration:none;
+line-height:1.5em;
+}
+
+#sidebar ul {
+ border-bottom:1px dotted #ccc;
+ list-style:none;
+margin:0.5em 0 1em 0;
+padding:0 0 10px 0;
+}
+
+#sidebar li {
+ color:#76757E;
+ line-height:1em;
+margin-bottom:10px;
+}
+
+#categories ul {
+line-height:1em;
+}
+
+#categories li {
+ display: inline;
+line-height:1.6em;
+margin-bottom:120px; 
+}
+
+#categories ul li:after {
+ content: "/";
+}
+
+#categories ul li.last:after {
+ content: " ";
+}
+
+#sidebar p {
+ margin:0em 0 .25em;
+ color:#666;
+ line-height:1.5em;
+}
+
+p.small {
+line-height:1.5em;
+  font-size: 8pt;
+padding-top:.2em;
+padding-bottom:1em
+}
+
+.comment a {
+ font-weight: bold;
+ color: #fff;
+ text-align:center;
+}
+
+img.avatar {
+ float:left; 
+ margin:5px 18px 0px 0px;
+ width:40px;
+ height: 40px;
+ border:1px solid #efefef;
+}
+
+.tpod {
+ background: #ffffff;
+padding:15px;
+margin:0 0 15px 0;
+}
+
+.etcetera {
+background:#fff;
+border:1px solid #d9f2fd;
+}
+
+.sidebar a:link {
+ color:#1E9ECD;
+ text-decoration:none;
+}
+
+.sidebar a:visited {
+ color:#83BCC4;
+ text-decoration:none;
+}
+
+.sidebar a:hover {
+ text-decoration:underline;
+}
+
+/* Post Titles
+----------------------------------------------- */
+.story {
+ margin:0em 0 1.5em;
+ padding:15px 22px;
+background:#fff;
+text-align: center;
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0px 1px 3px #999;
+-webkit-box-shadow: 0px 1px 3px #999;
+box-shadow: 0px 1px 3px #999;
+
+}
+
+.storytitle a {
+ font-weight: bold;
+ color: #676767;
+font-size:16px;
+ text-decoration:none;
+}
+
+.storytitle a:hover {
+ color: #676767;
+text-decoration:underline;
+background:#fff;
+}
+
+.farright {
+text-align:right;
+background:#fff;
+}
+
+/* Comment Form
+----------------------------------------------- */
+.comments {
+ max-width:585px;
+ background:#fff none repeat scroll 0%;
+ margin:0px 0px 0px 0px;
+ padding:8px 13px 0px 10px;
+}
+
+.comments p {
+padding:0px 0px;
+margin:0px;
+}
+
+.comments h3 {
+margin:0px 0px 0px 15px;
+font-size:10px;
+color:#999;
+}
+
+.commentbubble a {
+ color:#fff;
+ background: url(http://labs.thefairskinneditalians.com/img/commentbubble.png) 9px 8px no-repeat;
+ padding:20px;
+ float:right;
+ font-size:16px;
+ text-decoration:none;
+ line-height:0em;
+ margin:-42px -37px 0px 0px;
+}
+
+.commentbubble a:hover {
+ text-decoration:underline;
+}
+
+.commentbubble a:visited {
+ color:#fff;
+}
+
+ol.commentlist {
+ list-style-image:none;
+ list-style-position:outside;
+ list-style-type:none;
+ margin:0px 0px 0px 5px;
+ padding:3px 0px 5px 0px;
+}
+
+#form {
+ background:#efefef none repeat scroll 0%;
+ padding:10px 0px 1px 15px;
+ border:10px solid #fff;
+ max-width:573px;
+}
+
+#commentform label {
+ display: block;
+}
+
+input {
+ background-color:white;
+ margin-bottom:8px;
+}
+
+#commentform label.subscribe {
+ display: inline;
+}
+
+
+
+/* Footer
+----------------------------------------------- */
+#footer {
+ height: 62px;
+}
+
+#footer {
+ padding: 0;
+ margin: 0 auto;
+ width: 750px;
+ clear: both;
+}
+
+#footer p {
+ font-size:85%;
+ margin: 0;
+ padding: 16px 0 0 20px;
+ text-align: left;
+}

@@ -1,0 +1,238 @@
+a, a:hover, a:visited {
+	color: #1E9ECC;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.site-header {
+	height:207px;
+	background-image: url('http://www.thefairskinneditalians.com/wordpress/wp-content/themes/fsi-2013/nora-quinn.jpeg');
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	color:#fff;
+}
+
+.site-header h1, .site-header a {
+	font-size: 60px;
+	color:#fff;
+	font-family: Satisfy, serif;
+	text-shadow: 0px 1px 7px rgba(0,0,0,0.50);
+	text-decoration: none;
+	margin-top:30px;
+	transition: text-shadow 0.3s;
+}
+
+.site-header a:hover {
+	text-shadow: 0px 1px 12px rgba(0,0,0,0.90);
+}
+
+.site-description {
+	font-weight: 500;
+	text-shadow: 0px 1px 7px rgba(0,0,0,0.50);
+	font-size:15px;
+}
+
+.site-main {
+	background-color:#f7f7f7;
+}
+
+.entry-header {
+	text-align:center;
+	margin-bottom: 30px;
+}
+
+.entry-title a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight:600;
+	color: #424242;
+	font-size:22px;
+}
+
+.entry-date {
+	color: #999;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.hentry {
+	background:#fff;
+	max-width:640px;
+	margin:0 auto 40px;
+	padding:30px 150px;
+	border-radius: 2px;
+
+	position:relative;
+
+	-moz-box-shadow:    0px 2px 8px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1);
+	box-shadow:         0px 2px 8px 0px rgba(0,0,0,0.1);
+}
+
+.entry-content {
+}
+
+.entry-content, .entry-summary {
+margin: 0;
+}
+
+.entry-content img {
+	height: auto;
+margin-bottom:20px;
+}
+
+.entry-content p {
+	line-height: 1.5em;
+}
+
+.post-img {
+	margin-left:-20%;
+	margin-right:-20%;
+}
+
+.content-area {
+	margin-top:-40px;
+}
+
+footer {
+	font-size:14px;
+	color:#999;
+}
+
+footer a, footer a:visited {
+	color:#1E9ECC;
+	text-decoration: none;
+}
+
+.extras {
+	float: right;
+	color:#999;
+}
+
+.extras a, .extras a:visited {
+	color:#999;
+}
+
+/*embed, iframe, object {
+width:900px;
+margin-left: -20%;
+margin-right: -20%;
+}*/
+
+.site-content [class*="navigation"] {
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+#commentsContainer {
+	width:800px;
+	margin: 0 auto	;
+}
+
+#commentsContainer label {
+	display: block;
+}
+
+#commentsContainer input {
+	margin-bottom:20px;
+}
+
+.wp-pagenavi, .wp-pagenavi a {
+	font-size: 12px;
+	font-weight: 500;
+	text-decoration: none;
+	line-height: 2em;
+	color:#945167;
+}
+
+.current, .page {
+	padding: 3px 8px;
+	background-color: #fff;
+	border-radius: 4px;
+	margin:0 7px;
+	font-weight: 500;
+}
+
+.previouspostslink {
+	margin-right:7px;
+}
+
+.nextpostslink {
+	margin-left:7px;
+}
+
+.page:hover {
+	background: #ddd;
+}
+
+.current {
+	background-color:#945167;
+	color:#fff;
+}
+
+.widget-area {
+	margin:60px auto 40px;
+	width:940px;
+}
+
+.widget {
+	padding-bottom: 10px;
+	float:left;
+}
+
+.widget-title {
+	font-weight: 600;
+	margin-bottom:3px;
+	font-size: 16px;
+}
+
+.widget_text {
+	width:60%;
+}
+
+.textwidget {
+	font-size:14px;
+	line-height: 1.5em;
+}
+
+.widget_recent_comments {
+	width:35%;
+	font-size:14px;
+	padding-left:40px;
+}
+
+.widget_recent_comments ul {
+	list-style:none;
+	line-height: 1.6em;
+	margin-left:0em;
+}
+
+.paginationwrap { 
+	width:940px; 
+}
+
+.ltcol, .ctcol { 
+	float:left; 
+}
+.ltcol {
+	text-align: left;
+	width:190px;
+	padding-left:1px;
+}
+.ctcol {
+	text-align: center;
+	width:590px;
+}
+.rtcol { 
+	float:right;
+	text-align:right;
+	width:150px;
+}
+.allcomments {
+margin-left: 0px;
+}

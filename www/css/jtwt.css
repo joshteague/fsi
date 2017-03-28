@@ -1,0 +1,38 @@
+#jtwt {
+
+	list-style: none;
+
+	}
+	
+#jtwt li {
+
+	margin-bottom: 10px;
+
+	}
+	
+#jtwt li:last-child {
+
+	margin-bottom: 0px;
+
+	}
+	
+#jtwt_loader {
+	}
+	
+.jtwt_picture {
+
+	float: left;
+	margin-right: 10px;
+
+	}
+	
+p.jtwt_tweet_text {
+	display: inline;
+	font-size:14px;
+	}
+	
+a.jtwt_date {
+
+	font-size: 12px;
+
+	}
